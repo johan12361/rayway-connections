@@ -1,0 +1,11 @@
+{
+  "extends": ["standard", "standard-jsx", "eslint-config-prettier", "plugin:builderbot/recommended"],
+
+  "rules": {
+    "no-unsafe-optional-chaining": "off",
+    "import/no-duplicates": "off",
+    "spaced-comment": "off",
+    "space-before-function-paren": "off",
+    "brace-style": "off"
+  }
+}
