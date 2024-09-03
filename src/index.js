@@ -1,3 +1,5 @@
+//user
+import { RayWayUser } from './RailWayFuntions/config.mjs'
 //gets
 import { getServices } from './RailWayFuntions/GETS/getServices.mjs'
 import { getEnviroments } from './RailWayFuntions/GETS/getEnviroments.mjs'
@@ -12,6 +14,8 @@ import { reDeploy } from './RailWayFuntions/MUT/reDeploy.mjs'
 import { deleteService } from './RailWayFuntions/MUT/deleteService.mjs'
 
 export {
+  //user
+  RayWayUser,
   //gets
   getDeployById,
   getDeploy,

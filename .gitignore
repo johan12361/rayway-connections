@@ -1,6 +1,5 @@
 .vscode
 .env
-*_sessions
 node_modules
 doc.json
 *.log
