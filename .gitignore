@@ -4,3 +4,4 @@
 node_modules
 doc.json
 *.log
+src/railWay.js

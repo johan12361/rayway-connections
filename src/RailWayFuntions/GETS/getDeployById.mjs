@@ -13,7 +13,7 @@ import { Response } from '../fetch.mjs'
  *
  * @returns {Promise<Object|Null>} Una promesa que se resuelve con los datos del despliegue si la solicitud es exitosa, o `null` en caso de error.
  */
-export async function GetDeployById(RayWayUser, id) {
+export async function getDeployById(RayWayUser, id) {
   // Definir la consulta para obtener el despliegue por ID
   const query = `query deployment($id: String!) {
     deployment(id: $id) {

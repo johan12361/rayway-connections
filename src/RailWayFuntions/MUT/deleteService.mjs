@@ -14,7 +14,7 @@ import { Response } from '../fetch.mjs'
  *
  * @returns {Promise<Object|Null>} Una promesa que se resuelve con el resultado de la mutación si la solicitud es exitosa, o `null` en caso de error.
  */
-export async function DeleteService(RayWayUser, id, environmentId = null) {
+export async function deleteService(RayWayUser, id, environmentId = null) {
   // Definir la consulta para eliminar el servicio
   const query = `mutation serviceDelete($environmentId: String, $id: String!) {
     serviceDelete(environmentId: $environmentId, id: $id)

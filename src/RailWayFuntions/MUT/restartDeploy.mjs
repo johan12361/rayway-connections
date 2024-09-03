@@ -18,7 +18,7 @@ const query = `mutation deploymentRestart($id: String!) {
  *
  * @returns {Promise<Object|Null>} Una promesa que se resuelve con el resultado de la mutación si la solicitud es exitosa, o `null` en caso de error.
  */
-export async function RestartDeploy(RayWayUser, id) {
+export async function restartDeploy(RayWayUser, id) {
   try {
     // Definir las variables de la mutación
     const variables = { id }

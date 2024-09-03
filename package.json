@@ -1,14 +1,17 @@
 {
   "name": "rayway-connections",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "app.js",
+  "main": "./src/index.js",
   "type": "module",
+  "types": "index.d.ts",
   "scripts": {
-    "lint": "eslint . --no-ignore",
-    "pre-copy": "cd .. && npm run  copy.lib base-baileys-memory"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "rayway",
+    "connections"
+  ],
   "devDependencies": {
     "eslint-config-prettier": "^9.1.0",
     "standard": "17.1.0"
@@ -17,5 +20,5 @@
     "extends": "./eslintrc.json"
   },
   "author": "Johan S",
-  "license": "ISC"
+  "license": "MIT"
 }

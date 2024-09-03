@@ -14,7 +14,7 @@ import { Response } from '../fetch.mjs'
  *
  * @returns {Promise<Object|Null>} Una promesa que se resuelve con los datos del despliegue después del redepliegue si la solicitud es exitosa, o `null` en caso de error.
  */
-export async function ReDeploy(RayWayUser, id, usePreviousImageTag = false) {
+export async function reDeploy(RayWayUser, id, usePreviousImageTag = false) {
   // Definir la consulta para redeplegar el despliegue
   const query = `mutation deploymentRedeploy($id: String!, $usePreviousImageTag: Boolean) {
     deploymentRedeploy(id: $id, usePreviousImageTag: $usePreviousImageTag) {

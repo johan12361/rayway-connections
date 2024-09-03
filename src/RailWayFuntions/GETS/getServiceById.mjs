@@ -13,7 +13,7 @@ import { Response } from '../fetch.mjs'
  *
  * @returns {Promise<Object|Null>} Una promesa que se resuelve con los datos del servicio si la solicitud es exitosa, o `null` en caso de error.
  */
-export async function GetServiceById(RayWayUser, id) {
+export async function getServiceById(RayWayUser, id) {
   // Definir la consulta para obtener el servicio por ID
   const query = `query service($id: String!) {
     service(id: $id) {

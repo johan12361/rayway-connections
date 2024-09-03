@@ -15,7 +15,7 @@ import { Response } from '../fetch.mjs'
  *
  * @returns {Promise<Array|Null>} Una promesa que se resuelve con un array de objetos `edges` que contienen los datos del despliegue, o `null` en caso de error.
  */
-export async function GetDeploy(RayWayUser, projectId, environmentId, serviceId) {
+export async function getDeploy(RayWayUser, projectId, environmentId, serviceId) {
   const query = `{
         deployments(
           first: 1

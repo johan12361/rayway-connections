@@ -13,7 +13,7 @@ import { Response } from '../fetch.mjs'
  *
  * @returns {Promise<Object|Null>} Una promesa que se resuelve con el resultado de la mutación si la solicitud es exitosa, o `null` en caso de error.
  */
-export async function RemoveDeploy(RayWayUser, id) {
+export async function removeDeploy(RayWayUser, id) {
   // Definir la consulta para eliminar el despliegue
   const query = `mutation deploymentRemove($id: String!) {
     deploymentRemove(id: $id)

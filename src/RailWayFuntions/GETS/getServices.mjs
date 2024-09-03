@@ -12,7 +12,7 @@ import { Response } from '../fetch.mjs'
  *
  * @returns {Promise<Array|Null>} Una promesa que se resuelve con un array de objetos `edges` que contienen los servicios, o `null` en caso de error.
  */
-export async function GetServices(RayWayUser) {
+export async function getServices(RayWayUser) {
   // Definir la consulta para listar los servicios
   const query = `{
     me {
